@@ -1,0 +1,9 @@
+class Solution {
+    public int solution(int n, int k) {
+        int answer = 0;
+        int free_drink = 0;
+        free_drink = n/10;
+        answer = (n * 12000) + (k - free_drink) * 2000;
+        return answer;
+    }
+}
