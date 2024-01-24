@@ -23,4 +23,4 @@ class Solution {
             return gcd(b, a % b);
         }
     }
-}
+}n
