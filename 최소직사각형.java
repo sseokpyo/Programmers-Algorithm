@@ -1,9 +1,9 @@
 import java.util.*;
 class Solution {
-    public int solution(int[][] sizes) {
+    public int solution(int[][] sizes)  {
         int answer = 0;
         int max_x = 0;
-        int max_y = 0;
+        int max_y = 0;0
         for(int i = 0; i < sizes.length; i++){
             int x = Math.max(sizes[i][0], sizes[i][1]);
             int y = Math.min(sizes[i][0], sizes[i][1]);
