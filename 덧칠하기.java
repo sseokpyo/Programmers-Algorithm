@@ -11,6 +11,8 @@ class Solution {
                         arr[i + j] = 0;                        
                 }
                 answer++;
+				
+				
             }
         }
         for(int i = arr.length - m; i < arr.length; i++){
