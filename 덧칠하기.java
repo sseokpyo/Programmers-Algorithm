@@ -1,5 +1,6 @@
 class Solution {
     public int solution(int n, int m, int[] section) {
+		//test 1
         int answer = 0;
         int[] arr = new int[n];
         for(int i = 0; i < section.length; i++){            
@@ -10,8 +11,7 @@ class Solution {
                 for(int j = 0; j < m; j++){                    
                         arr[i + j] = 0;                        
                 }
-                answer++;
-				
+                answer++;			
 				
             }
         }
